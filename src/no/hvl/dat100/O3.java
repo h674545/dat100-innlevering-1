@@ -10,11 +10,12 @@ public class O3 {
 		
 		int tall = parseInt(showInputDialog("For å få verdien av n!, tast inn et positivt heltall"));
 		
-		int n = tall; 
+		int n = 1;
 		
-		if( n > 0) {
-			System.out.println("Verdien til n! med tallet " + n + " er " + (n-1)*n); 
+		for(int i = 1; i <= tall; i++) {
+			n *= i;
 		}
+		System.out.println("Verdien av " + tall + "! er " + n);
 	}
 
 }

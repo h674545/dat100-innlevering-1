@@ -16,6 +16,7 @@ public class O2 {
 		int e = 49;
 		int f = 39;
 		
+		for(int i = 1; i<= 10; i++) {
 		int poengsum = parseInt(showInputDialog("Tast inn din poengsum"));
 		
 		if(poengsum < start || poengsum > a) {
@@ -32,7 +33,8 @@ public class O2 {
 			System.out.println("Karakteren din er B");
 		} else {
 			System.out.println("Karakteren din er A");
+			}
 		}
-	}
 
+	}
 }

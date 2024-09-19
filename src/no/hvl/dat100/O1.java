@@ -20,15 +20,15 @@ public class O1 {
 		if(bruttoInntekt <= ingenTrinnskatt) {
 			System.out.println("Ingen trinnskatt");
 		} else if(bruttoInntekt <= trinnSkatt1) {
-		System.out.println("Din trinnskatt er: " + bruttoInntekt * (1.7 /100));
+		System.out.println("Din trinnskatt er: " + (bruttoInntekt * 1.7) /100);
 		} else if(bruttoInntekt <= trinnSkatt2) {
-			System.out.println("Din trinnskatt er: " + bruttoInntekt * (4.0 /100));
+			System.out.println("Din trinnskatt er: " + (bruttoInntekt * 4.0) /100);
 		} else if(bruttoInntekt <= trinnSkatt3) {	
-			System.out.println("Din trinnskatt er: " + bruttoInntekt * (13.6 /100));
+			System.out.println("Din trinnskatt er: " + (bruttoInntekt * 13.6) /100);
 		} else if(bruttoInntekt <= trinnSkatt4) {
-			System.out.println("Din trinnskatt er: " + bruttoInntekt * (16.6 /100));
+			System.out.println("Din trinnskatt er: " + (bruttoInntekt * 16.6) /100);
 		} else if(bruttoInntekt >= trinnSkatt5) {
-			System.out.println("Din trinnskatt er: " + bruttoInntekt * (17.6 /100));
+			System.out.println("Din trinnskatt er: " + (bruttoInntekt * 17.6) /100);
 		}
 		
 	}
